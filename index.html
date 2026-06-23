@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ИК пульт для ТВ и приставок OGT — Политика конфиденциальности</title>
+<style>
+  :root { --accent: #2563eb; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 16px; line-height: 1.6;
+    color: #1a1a1a; background: #fafafa;
+  }
+  .container { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
+  h1 { font-size: 1.6rem; font-weight: 700; margin-bottom: 4px; }
+  .updated { color: #666; font-size: 0.9rem; margin-bottom: 40px; }
+  .lang-tabs { display: flex; gap: 8px; margin-bottom: 32px; }
+  .lang-tabs button {
+    padding: 6px 16px; border: 1.5px solid var(--accent);
+    background: transparent; color: var(--accent); border-radius: 20px;
+    cursor: pointer; font-size: 0.9rem; font-weight: 500;
+    transition: background 0.15s, color 0.15s;
+  }
+  .lang-tabs button.active { background: var(--accent); color: #fff; }
+  .lang { display: none; }
+  .lang.active { display: block; }
+  h2 { font-size: 1.1rem; font-weight: 600; margin: 28px 0 8px; color: #111; }
+  p { margin-bottom: 12px; color: #333; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .contact { margin-top: 40px; padding: 20px; background: #eff6ff;
+    border-radius: 8px; border-left: 3px solid var(--accent); }
+  .contact p { margin: 0; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #111; color: #e5e5e5; }
+    h2 { color: #f0f0f0; }
+    p { color: #ccc; }
+    .contact { background: #1e2d4a; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>ИК пульт для ТВ и приставок OGT</h1>
+  <p class="updated">Privacy Policy · Политика конфиденциальности · Updated 2026-06-23</p>
+
+  <div class="lang-tabs">
+    <button class="active" onclick="setLang('ru')">Русский</button>
+    <button onclick="setLang('en')">English</button>
+  </div>
+
+  <!-- RUSSIAN -->
+  <div class="lang active" id="lang-ru">
+    <p><strong>ИК пульт для ТВ и приставок OGT</strong> — утилита для управления устройствами через инфракрасный порт. Основные функции и встроенные профили работают локально, без доступа к сети.</p>
+
+    <h2>Локальные данные</h2>
+    <p>Сохранённые пульты, профили, настройки, журналы и импортированные LIRC-данные хранятся в закрытом хранилище приложения. Экспорт происходит только когда пользователь явно выбирает место назначения через системный выбор файлов Android. Содержимое ИК-сигналов и профили не загружаются в облако.</p>
+
+    <h2>Сетевые функции</h2>
+    <p>Приложение может подключаться к сервисам Firebase (Remote Config, опциональная диагностика, проверка Pro-кодов) и к опциональному серверу ИК-базы данных. Если эти сервисы недоступны, встроенные и сохранённые пульты продолжают работать.</p>
+
+    <h2>Облачная диагностика (опционально)</h2>
+    <p>Сбор Analytics и Crashlytics по умолчанию <strong>включён</strong>. Пользователь может отключить в Настройках → «Облачная диагностика».</p>
+    <p>При включении приложение может отправлять: анонимизированные события (бренд устройства, модель, кнопка — без персональных данных) и отчёты об ошибках (версия приложения, диагностика ОС/устройства).</p>
+    <p>На устройствах без Google Mobile Services (Huawei, кастомные прошивки) Firebase Analytics деградирует незаметно — события не отправляются. Crashlytics работает нормально.</p>
+    <p>Google обрабатывает данные согласно <a href="https://policies.google.com/privacy?hl=ru" rel="noopener">Политике конфиденциальности Google</a> и <a href="https://firebase.google.com/terms" rel="noopener">условиям Firebase</a>.</p>
+
+    <h2>Разрешения</h2>
+    <p><code>TRANSMIT_IR</code> — отправка ИК-команд. <code>VIBRATE</code> — тактильная обратная связь. <code>INTERNET</code> / <code>ACCESS_NETWORK_STATE</code> — опциональные сетевые функции. Приложение не запрашивает доступ к контактам, местоположению, камере, микрофону или хранилищу файлов.</p>
+
+    <h2>Реклама</h2>
+    <p><strong>Версия RuStore:</strong> баннерная, межстраничная и вознаграждаемая видеореклама от Яндекс Мобильной Рекламы (ООО «Яндекс»). Яндекс обрабатывает рекламу согласно <a href="https://yandex.ru/legal/confidential/" rel="noopener">Политике конфиденциальности Яндекса</a>.</p>
+    <p><strong>Версия Google Play:</strong> реклама от Google AdMob. Обрабатывается согласно <a href="https://policies.google.com/privacy?hl=ru" rel="noopener">Политике конфиденциальности Google</a>.</p>
+    <p>Вознаграждаемая реклама открывает доступ к кастомизации внешнего вида. Реклама не показывается пользователям без необходимых разрешений на устройстве.</p>
+
+  </div>
+
+  <!-- ENGLISH -->
+  <div class="lang" id="lang-en">
+    <p><strong>ИК пульт для ТВ и приставок OGT</strong> is an infrared remote-control utility. Core functions and bundled profiles work locally without any network access.</p>
+
+    <h2>Local Data</h2>
+    <p>Saved remotes, profiles, settings, logs and imported LIRC data are stored in app-private storage. Exports occur only when the user explicitly selects a destination via Android's document picker. IR signal contents and profile dumps are not uploaded.</p>
+
+    <h2>Network Features</h2>
+    <p>The app may connect to Firebase services (Remote Config, optional diagnostics, Pro-code validation) and an optional owner-configured IR database server. If unavailable, bundled and saved remotes continue to work.</p>
+
+    <h2>Optional Cloud Diagnostics</h2>
+    <p>Analytics and Crashlytics collection are <strong>disabled by default</strong>. Enabled by the user in Settings → "Cloud diagnostics".</p>
+    <p>When enabled the app may send: anonymised events (device brand, model, button — no personal data) and crash reports (app version, OS/device diagnostics).</p>
+    <p>On devices without Google Mobile Services (Huawei, custom ROMs), Firebase Analytics degrades silently — no events are sent. Crashlytics works normally.</p>
+    <p>Google processes data per the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a> and <a href="https://firebase.google.com/terms" rel="noopener">Firebase terms</a>.</p>
+
+    <h2>Permissions</h2>
+    <p><code>TRANSMIT_IR</code> — send infrared commands. <code>VIBRATE</code> — haptic feedback. <code>INTERNET</code> / <code>ACCESS_NETWORK_STATE</code> — optional network features. The app does not request contacts, location, camera, microphone or storage permissions.</p>
+
+    <h2>Advertising</h2>
+    <p><strong>RuStore build:</strong> banner, interstitial and rewarded video ads by Yandex Mobile Ads (Yandex LLC), per the <a href="https://yandex.ru/legal/confidential/" rel="noopener">Yandex Privacy Policy</a>.</p>
+    <p><strong>Google Play build:</strong> ads by Google AdMob, per the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>.</p>
+    <p>Rewarded ads gate optional appearance features. Ads are not shown to users who have not granted necessary advertising permissions on their device.</p>
+
+  </div>
+</div>
+
+<script>
+function setLang(lang) {
+  document.querySelectorAll('.lang').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.lang-tabs button').forEach(btn => btn.classList.remove('active'));
+  document.getElementById('lang-' + lang).classList.add('active');
+  event.target.classList.add('active');
+}
+</script>
+</body>
+</html>
