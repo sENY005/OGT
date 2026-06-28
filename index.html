@@ -43,7 +43,7 @@
 <body>
 <div class="container">
   <h1>ИК пульт для ТВ и приставок OGT</h1>
-  <p class="updated">Privacy Policy · Политика конфиденциальности · Updated 2026-06-23</p>
+  <p class="updated">Privacy Policy · Политика конфиденциальности · Updated 2026-06-28</p>
 
   <div class="lang-tabs">
     <button class="active" onclick="setLang('ru')">Русский</button>
@@ -61,8 +61,8 @@
     <p>Приложение может подключаться к сервисам Firebase (Remote Config, опциональная диагностика, проверка Pro-кодов) и к опциональному серверу ИК-базы данных. Если эти сервисы недоступны, встроенные и сохранённые пульты продолжают работать.</p>
 
     <h2>Облачная диагностика (опционально)</h2>
-    <p>Сбор Analytics и Crashlytics по умолчанию <strong>включён</strong>. Пользователь может отключить в Настройках → «Облачная диагностика».</p>
-    <p>При включении приложение может отправлять: анонимизированные события (бренд устройства, модель, кнопка — без персональных данных) и отчёты об ошибках (версия приложения, диагностика ОС/устройства).</p>
+    <p>До принятия этой Политики на экране приветствия диагностика <strong>не собирается</strong> — приложение не инициализирует Firebase. После принятия сбор аналитики и диагностики сбоев <strong>включён</strong>; пользователь может отключить его в Настройках → «Облачная диагностика».</p>
+    <p>При включении приложение может отправлять: анонимизированные события использования (бренд, модель, категория, кнопка и признак наличия ИК-передатчика — без персональных данных) и отчёты об ошибках (версия приложения, диагностика ОС/устройства).</p>
     <p>На устройствах без Google Mobile Services (Huawei, кастомные прошивки) Firebase Analytics деградирует незаметно — события не отправляются. Crashlytics работает нормально.</p>
     <p>Google обрабатывает данные согласно <a href="https://policies.google.com/privacy?hl=ru" rel="noopener">Политике конфиденциальности Google</a> и <a href="https://firebase.google.com/terms" rel="noopener">условиям Firebase</a>.</p>
 
@@ -87,8 +87,8 @@
     <p>The app may connect to Firebase services (Remote Config, optional diagnostics, Pro-code validation) and an optional owner-configured IR database server. If unavailable, bundled and saved remotes continue to work.</p>
 
     <h2>Optional Cloud Diagnostics</h2>
-    <p>Analytics and Crashlytics collection are <strong>disabled by default</strong>. Enabled by the user in Settings → "Cloud diagnostics".</p>
-    <p>When enabled the app may send: anonymised events (device brand, model, button — no personal data) and crash reports (app version, OS/device diagnostics).</p>
+    <p>No diagnostics are collected before you accept this policy on the welcome screen — the app does not initialise Firebase until then. After you accept, analytics and crash diagnostics are <strong>enabled</strong>; you can turn them off in Settings → "Cloud diagnostics".</p>
+    <p>When enabled the app may send: anonymised usage events (brand, model, category, button and an IR-emitter capability flag — no personal data) and crash reports (app version, OS/device diagnostics).</p>
     <p>On devices without Google Mobile Services (Huawei, custom ROMs), Firebase Analytics degrades silently — no events are sent. Crashlytics works normally.</p>
     <p>Google processes data per the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a> and <a href="https://firebase.google.com/terms" rel="noopener">Firebase terms</a>.</p>
 
